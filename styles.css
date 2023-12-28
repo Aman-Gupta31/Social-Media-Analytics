@@ -1,0 +1,72 @@
+/* CSS Documentation */
+
+/* Reset default margin, padding, and font styles for the entire document */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Define font family for the entire document */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  height: 100vh; /* Set the height of the body to 100% of the viewport height */
+  background-color: #f0f2f5; /* Set background color for the entire body */
+}
+
+/* Styling for the main application container */
+#app {
+  max-width: 600px; /* Set maximum width for the application container */
+  width: 100%; /* Occupy 100% of available width */
+  padding: 20px; /* Add padding to the application container */
+  background-color: #fff; /* Set background color for the application container */
+  border-radius: 8px; /* Add rounded corners to the application container */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+}
+
+/* Styling for the main heading */
+h1 {
+  text-align: center; /* Center-align the text */
+  color: #3b5998; /* Set text color to Facebook Blue */
+}
+
+/* Styling for labels used in the form */
+label {
+  display: block; /* Display labels as block elements */
+  margin-bottom: 8px; /* Add space below each label */
+  color: #333; /* Set label text color */
+}
+
+/* Styling for input and textarea elements */
+input,
+textarea {
+  width: 100%; /* Occupy 100% of available width */
+  padding: 10px; /* Add padding to the input and textarea elements */
+  margin-bottom: 16px; /* Add space below each input and textarea */
+  border: 1px solid #ddd; /* Add a 1px solid border with a light gray color */
+  border-radius: 4px; /* Add rounded corners to input and textarea elements */
+}
+
+/* Styling for buttons */
+button {
+  background-color: #3b5998; /* Set background color to Facebook Blue */
+  color: #fff; /* Set text color to white */
+  padding: 12px; /* Add padding to the button */
+  border: none; /* Remove default button border */
+  border-radius: 4px; /* Add rounded corners to the button */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Hover effect for buttons */
+button:hover {
+  background-color: #2d4373; /* Darker shade for hover effect */
+}
+
+/* Styling for the analysis result container */
+#analysisResultDiv {
+  margin-top: 20px; /* Add space above the analysis result container */
+  padding: 15px; /* Add padding to the analysis result container */
+  background-color: #e6f7ff; /* Set background color for analysis result */
+  border-radius: 4px; /* Add rounded corners to the analysis result container */
+  color: #333; /* Set text color for the analysis result */
+}
+
+ 

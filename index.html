@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta tags for character set and viewport settings -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Social Media Analytics</title>
+   <!-- Link to external stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+     <!-- Application title -->
+    <h1>Social Media Analytics</h1>
+    <!-- Input field for Post ID -->
+    <div>
+      <label>
+        Post ID:
+        <input type="text" id="postIdInput" />
+      </label>
+    </div>
+    <!-- Text area for entering post content -->
+    <div>
+
+      <label>
+        Text Content:
+        <textarea id="textContentTextarea"></textarea>
+      </label>
+    </div>
+
+     <!-- Button to create a new post -->
+    <div>
+      <button onclick="handleCreatePost()">Create Post</button>
+    </div>
+    <!-- Button to get analysis for the entered post -->
+    <div>
+      <button onclick="handleGetAnalysis()">Get Analysis</button>
+    </div>
+    <!-- Container to display analysis result -->
+    <div id="analysisResultDiv"></div>
+  </div>
+  <!-- Script tag linking to external JavaScript file -->
+  <script src="app.js"></script>
+</body>
+</html>
